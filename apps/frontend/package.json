@@ -1,0 +1,12 @@
+{
+  "name": "@repro/frontend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev --force --host --port 3400 -l info"
+  },
+  "dependencies": {
+    "@repro/component-library": "workspace:*"
+  }
+}
