@@ -9,6 +9,12 @@
   "dependencies": {
     "@emotion/react": "11.14.0",
     "@emotion/styled": "11.14.1",
+    "@material-table/core": "6.4.4",
+    "material-react-table": "3.2.1",
+    "@rjsf/core": "5.24.13",
+    "@rjsf/mui": "5.24.13",
+    "@rjsf/utils": "5.24.13",
+    "@rjsf/validator-ajv8": "5.24.13",
     "@mui/icons-material": "6.5.0",
     "@mui/material": "6.5.0",
     "@mui/styled-engine": "6.5.0",
@@ -37,7 +43,7 @@
     "build": "turbo run build",
     "start:frontend": "pnpm build && cross-env NODE_ENV=development pnpm --filter @repro/frontend dev"
   },
-  "packageManager": "pnpm@10.32.1",
+  "packageManager": "pnpm@10.33.0",
   "volta": {
     "node": "24.13.0",
     "npm": "11.12.0",

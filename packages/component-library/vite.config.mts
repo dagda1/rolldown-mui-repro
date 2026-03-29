@@ -52,6 +52,7 @@ export default defineConfig({
         '@emotion/styled',
         /^@repro\/.*/,
         /^@mui\/.*/,
+        /^@rjsf\/.*/,
         'react',
         'react-dom',
         'react-router',
