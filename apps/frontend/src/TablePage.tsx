@@ -1,3 +1,4 @@
+import type { JSX } from 'react';
 import { Table } from '@repro/component-library';
 
 export default function TablePage(): JSX.Element {

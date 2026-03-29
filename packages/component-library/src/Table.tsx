@@ -1,3 +1,4 @@
+import type { JSX } from 'react';
 import type { Column } from '@material-table/core';
 import MuiTable from '@material-table/core';
 import Box from '@mui/material/Box';

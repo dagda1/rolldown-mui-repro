@@ -1,3 +1,4 @@
+import type { JSX } from 'react';
 import Box from '@mui/material/Box';
 import type { MaterialReactTableProps, MRT_RowData } from 'material-react-table';
 import { MaterialReactTable, useMaterialReactTable } from 'material-react-table';

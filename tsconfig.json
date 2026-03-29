@@ -1,32 +1,23 @@
 {
   "compilerOptions": {
-        "target": "ES2022",
+    "target": "ES2022",
     "module": "ES2022",
     "moduleResolution": "Bundler",
     "strict": true,
     "jsx": "react-jsx",
-    // "removeComments": false,
-    // "checkJs": false,
     "isolatedModules": true,
     "esModuleInterop": true,
-    // "noUnusedLocals": true,
     "skipLibCheck": true,
-    // "downlevelIteration": true,
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
-    // "noFallthroughCasesInSwitch": true,
     "baseUrl": "${configDir}",
-    // "outDir": "${configDir}/dist/esm",
     "preserveSymlinks": false,
-    // "lib": ["es5", "es2015", "es2016", "ES2019", "ES2022", "ES2023", "dom"],
     "paths": {
       "@repro/component-library": ["./packages/component-library/src/*"]
     },
-    // "types": [
-    //   "node",
-    //   "@cutting/useful-types",
-    //   "@cutting/useful-types/jsx"
-    // ]
+    "types": [
+      "node"
+    ]
   }
 }
