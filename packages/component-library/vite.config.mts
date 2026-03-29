@@ -53,6 +53,8 @@ export default defineConfig({
         /^@repro\/.*/,
         /^@mui\/.*/,
         /^@rjsf\/.*/,
+        '@material-table/core',
+        'material-react-table',
         'react',
         'react-dom',
         'react-router',
