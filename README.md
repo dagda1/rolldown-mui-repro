@@ -4,10 +4,11 @@
 
 ```bash
 pnpm install
+pnpm build
 pnpm start:frontend
 ```
 
-Open the browser URL shown in the terminal. The console will show:
+Open the browser URL shown in the terminal [http://localhost:3400/](http://localhost:3400/). The console will show:
 
 ```
 Uncaught TypeError: Cannot read properties of undefined (reading 'muiName')
