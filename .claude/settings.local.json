@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(find /Users/paulcowan/projects/rolldown-mui-repro -path */node_modules/@cutting/useful-types -type d)",
-      "Bash(ls /Users/paulcowan/projects/rolldown-mui-repro/node_modules/.pnpm/@cutting+useful-types@4.46.0/node_modules/@cutting/useful-types/jsx*)",
-      "Bash(npx tsc:*)"
-    ]
-  }
-}

@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@cutting/assert':
+        specifier: ^0.5.0
+        version: 0.5.0
       '@emotion/react':
         specifier: 11.14.0
         version: 11.14.0(@types/react@19.2.14)(react@19.2.4)
@@ -160,6 +163,9 @@ packages:
   '@babel/types@7.29.0':
     resolution: {integrity: sha512-LwdZHpScM4Qz8Xw2iKSzS+cfglZzJGvofQICy7W7v4caru4EaAmyUuO6BGrbyQ2mYV11W0U8j5mBhd14dd3B0A==}
     engines: {node: '>=6.9.0'}
+
+  '@cutting/assert@0.5.0':
+    resolution: {integrity: sha512-8nYT13QpVrWZe0lcQ6nTAB53XYDl3Urh0GnV2NTgdNoKubhXaN7zM2d1SSNxfZebfr/kgDZcBt0siY8P5zCXTg==}
 
   '@cutting/tsconfig@4.45.0':
     resolution: {integrity: sha512-0RXP7CxOlOwk/6H8M0Q/ilxtZfpvuvy29koV3vqpMt9+bC61P2BUkCqRN8IhcEohjBhIJnH2Q6kKKRCE8wxK7Q==}
@@ -1794,6 +1800,8 @@ snapshots:
     dependencies:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.28.5
+
+  '@cutting/assert@0.5.0': {}
 
   '@cutting/tsconfig@4.45.0': {}
 
